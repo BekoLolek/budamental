@@ -191,14 +191,17 @@ p {
         order: 3;
         /* Image comes after the h2 on smaller screens */
     }
+    .member-desc{
+        order: 4;
+    }
 
     .member-time {
-        order: 4;
+        order: 5;
         /* Text and button come before the image on smaller screens */
     }
 
     .member-contact {
-        order: 5;
+        order: 6;
     }
 
     .team-member img {
