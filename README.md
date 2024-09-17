@@ -1,1 +1,1 @@
-Source repo for budamental.hu deployed through Vercel
+Source repo for www.budamental.hu deployed through Vercel
