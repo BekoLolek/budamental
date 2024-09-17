@@ -1,0 +1,288 @@
+/* Custom styles */
+body {
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+}
+
+
+#home {
+    background: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#about,
+#services,
+#contact {
+    padding: 60px 15px;
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+#navbarNav .nav-link {
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s;
+    padding: 0 20px 0 20px;
+}
+
+#navbarNav .nav-link:hover {
+    color: yellow;
+}
+
+#szakembereink_container {
+    background-color: lightgray;
+}
+
+#kapcsolat_container {
+    background-color: yellow;
+
+}
+
+#Kapcsolat {
+    background-color: yellow;
+}
+
+#navbar_container {
+    background-image: url(../img/site/budamental_back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#kanape_image {
+    max-width: 100%;
+    height: auto;
+}
+
+#kanape_image_container {
+    position: relative;
+    left: 25%;
+    max-width: 50%;
+}
+
+#ket_bubi {
+    max-width: 20%;
+    height: auto;
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: -10%;
+}
+
+#main_title {
+    font-family: Roboto, sans-serif;
+    font-size: 96px;
+    color: black;
+}
+
+#main_subtitle {
+    font-family: Roboto, sans-serif;
+    font-size: 60px;
+    color: black;
+}
+
+@media only screen and (max-width: 576px) {
+    #main_title {
+        font-size: 60px;
+    }
+
+    #main_subtitle {
+        font-size: 40px;
+    }
+}
+
+.col-lg-5, .col-lg-5{
+    padding: 0% !important;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+
+
+    p {
+        font-size: 1rem;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .section-item {
+        width: 100vh;
+        margin: 60px auto;
+        padding: 20px 0 0 0;
+    }
+}
+
+
+
+
+/* Style for the team member */
+.team-member {
+    margin-bottom: 50px;
+    /* Space between team members */
+}
+
+/* Flex container for image and text */
+.team-member .col-lg-12 {
+    display: flex;
+    flex-direction: column;
+    /* Stack items vertically */
+    margin-bottom: 15px;
+    /* Space between stacked items */
+}
+
+.team-text {
+    text-align: justify;
+    padding-top: 15px;
+}
+
+@media (min-width: 992px) {
+    .container:nth-child(2n+0) .team-member .order-lg-2 {
+        order: 3;
+    }
+
+    .container:nth-child(2n+0) .team-member .order-lg-3 {
+        order: 2;
+    }
+}
+
+
+
+/* Stack elements in the order: h2, img, ul, and p for smaller screens */
+@media (max-width: 992px) {
+    .section-item {
+        width: 100%;
+    }
+
+    .member-spec {
+        order: 1;
+    }
+
+    .member-button {
+        order: 2;
+    }
+
+    .member-image {
+        order: 3;
+        /* Image comes after the h2 on smaller screens */
+    }
+
+    .member-time {
+        order: 4;
+        /* Text and button come before the image on smaller screens */
+    }
+
+    .member-contact {
+        order: 5;
+    }
+
+    .team-member img {
+        margin-bottom: 15px;
+        /* Space below the image */
+    }
+
+    .team-member {
+        margin-bottom: 50px;
+    }
+}
+
+.team-member h2 {
+    font-family: "Bebas Neue";
+    font-size: 80px;
+    font-weight: 400;
+    color: rgb(58, 169, 33);
+    display: block;
+    text-transform: uppercase;
+}
+
+.team-member ul li {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(17, 17, 17);
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.team-member div .member-set-text {
+    font-family: Lato, sans-serif;
+    color: rgb(58, 169, 33);
+    font-size: 23;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.team-member div .member-unset-text {
+    font-family: Lato, sans-serif;
+    color: rgb(17, 17, 17);
+    font-size: 23;
+    font-weight: bold;
+
+}
+
+.button-container {
+    position: relative;
+    max-height: 100px;
+    max-width: 100px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.button-container img {
+    width: 100%;
+    height: auto;
+}
+
+.member-image {
+    width: 200%;
+    height: auto;
+    margin: 0%;
+    padding: 0 0 0 0;
+}
+
+.member-button {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border: none;
+    color: #3aa921;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    outline: 0 !important;
+
+}
+
+.member-button:hover {
+    background-color: transparent;
+    color: #0d4d03;
+}
