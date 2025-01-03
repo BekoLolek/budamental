@@ -60,30 +60,7 @@
             "email": "goral.barbara@icloud.com"
         },
         "description": "Tanácsadó szakpszichológus, Gyászfeldolgozás Módszer® Specialista&nbsp;&nbsp;&nbsp; &nbsp;<br>1996-ban szereztem diplomámat az ELTE Bölcsészettudományi Karának Pszichológia szakán. Gyermekpszichológusként kezdtem pályámat a gyermekvédelem területén, majd a munkaerő keresésben és kiválasztásban szereztem tapasztalatot és az utóbbi években iskolapszichológusként segítettem a szülőket, gyermekeket és pedagógusokat a konfliktuskezelés, szorongáscsökkentés és a tanulási nehézségekkel való megküzdés területén. Munkám során mind gyermek, mind felnőtt klienseim teljes elfogadására törekszem és igyekszem a rendszerszemléleti megközelítésnek megfelelően a kapcsolati hálót is feltárva megérteni a hozott problémát, elakadást. A tanácsadási folyamatban nem kész tanácsokkal, „használati utasítással” látom el a hozzám fordulókat, a közös munka inkább az erőforrások, lehetőségek feltárásáról szól, mely során a megoldás úgy körvonalazódik, ahogy a belső fejlődés, az önismeret halad előre. Klienseimnek életvezetési nehézségek kezelésében, stresszoldásban, nevelési tanácsadásban, veszteségek feldolgozásában, konfliktuskezelésben, gyermekek tanulási és koncentrációs problémáinak enyhítésében, valamint krízishelyzetek feldolgozásában igyekszem támogatást nyújtani. Fontosnak tartom, hogy életünk során az elénk kerülő nehézségekre, problémákra úgy tudjunk tekinteni, mint lehetőségekre, hiszen a változás, változtatás az élet természetes folyamatának része, melynek során új megoldásokat, új rendszereket kell felépítenünk, új képet kialakítanunk magunkról, másokról és a világról, ami éppen annyira izgalmas és örömteli, mint amennyire nehéz."
-    },
-    {
-        "name": "Hajdú Krisztina",
-        "image": "/img/people/hajdukriszta.jpg",
-        "specializations": [
-            "GYERMEKNEVELÉSI KONZULTÁCIÓ",
-            "PÁR- ÉS CSALÁDTERÁPIA",
-            "ÉLETVEZETÉSI ELAKADÁSOK",
-            "ÉLETCIKLUS VÁLTÁSOK",
-            "PSZICHOSZOMATIKUS ÉS SZORONGÁSOS TÜNETEK",
-            "BEILLESZKEDÉSI NEHÉZSÉGEK",
-            "SERDÜLŐKORI KONFLIKTUSOK",
-            "TANULÁSI NEHÉZSÉGEK",
-            "ÉLETKÖZÉPI VÁLSÁG",
-            "KIÉGÉS"
-        ],
-        "buttonText": "Rólam",
-        "availability": "Szombat",
-        "contact": {
-            "phone": "+36 30 630 6612",
-            "email": "viragokvolgye@gmail.com"
-        },
-        "description": "Hajdú Krisztina klinikai és mentálhigiénés gyermek- és ifjúsági szakpszichológus, pár- és családterapeuta, hipnoterapeuta, tranzakcióanalitikus tanácsadó vagyok. Bárkinél előfordulhat, hogy olyan élethelyzetbe kerül, ahol szakértői segítségre van szüksége. A közös munka során olyan felismeréseket élhet meg, amit majd erőforrásként tud alkalmazni az életében bekövetkező kihívásoknál, krízishelyzeteknél. Szeretem a hétköznapi alkalmazhatóságra, az azonnal kipróbálható, gyakorlati elemekre fektetni a hangsúlyt, gyakran nemverbális, projektív technikákat alkalmazok. A kapcsolatfókusz, rendszerszemlélet, erőforrás- központúság és empátia fontos szerepet játszanak munkám során. Célom, egy olyan megtartó tér teremtése, amelyben közösen megélhetjük, ahogy mindenki felismeri és megismeri saját erőforrásait, amit majd hatékonyan tud alkalmazni. A támogató, elfogadó környezet támaszt nyújthat ahhoz, hogy bármilyen érzelem kifejezhetővé váljon, illetve sikeresen megküzdjünk az életünkben felmerülő elakadásokkal. Fontosnak tartom, hogy a személyre szabott, megfelelő tempót és választékos technikák alkalmazását, ami szorosan kapcsolódik az adott területhez, amivel dolgozunk. Törekszem arra, hogy a hozzám fordulókat segítsem önmaguk megismerésében, és ezáltal kiegyensúlyozottabb, teljesebb életet élhessenek. Konzultációs területek: életvezetési elakadások, életciklus váltások (pl.: óvodai, iskolai átmenetek, pályaválasztás, munkavállalás, párválasztás, házasságkötés, gyermekvállalás, válás stb.), gyermeknevelési konzultáció, pár- és családterápia, pszichoszomatikus és szorongásos tünetek, tanulási nehézségek, serdülőkori konfliktusok, életközépi válság, kiégés, beilleszkedési nehézségek külföldön stb."
-    },
+    },    
     {
         "name": "Kálmán Rita",
         "image": "/img/people/kalmanrita.jpg",
