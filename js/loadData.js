@@ -19,40 +19,54 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 const memberHTML = `
                     <div class="team-member row">
-                                               
-                        
-                        <div class="col-lg-6 order-lg-${order_name} member-spec">
-                            <h2>${person.name}</h2>
-                            <ul>
-                                ${person.specializations.map(spec => `<li>${spec}</li>`).join('')}
-                            </ul>
-                            <div class="button-container">
-                            <img src="/img/site/buttonbuborek.png" alt="bubi">
-                            <button class=" member-button" onclick=\'
-                        var x = document.getElementById("${person.contact.email}_desc_id");
-                        if (x.style.display === "none") {
-                            x.style.display = "block";
-                        } else {
-                            x.style.display = "none";
-                        }
-                    \'>${person.buttonText}</button></div>
-                        
-                        </div>
-                        <div class="col-lg-6 order-lg-${order_img} text-center member-image">
-                            <img src="${person.image}" class="img-fluid" alt="${person.name}">
-                        </div>
-                        <div id="${person.contact.email}_desc_id" style="display:none;" class="col-lg-12 order-lg-4 team-text member-desc">
-                            <p>${person.description}</p>
-                        </div>
-                        <div class="col-lg-6 order-lg-4 member-time">
-                            <p class="member-set-text">Rendelési idő:<br> <p class="member-unset-text">${person.availability}</p></p>
-                        </div>
-                        <div class="col-lg-6 order-lg-5 member-contact">
-                            <p class="member-set-text">Elérhetőségek:</p>
-                            <p class="member-unset-text">${person.contact.phone}<br>${person.contact.email}</p>
-                        </div>
-                        
-                    </div>
+
+    <!-- NAME -->
+    <div class="col-lg-12 order-lg-1 member-name">
+        <h2>${person.name}</h2>
+    </div>
+
+    <!-- IMAGE -->
+    <div class="col-lg-6 order-lg-2 text-center member-image">
+        <img src="${person.image}" class="img-fluid" alt="${person.name}">
+    </div>
+
+    <!-- DESCRIPTION -->
+    <div id="${person.contact.email}_desc_id" style="display:none;" class="col-lg-12 order-lg-3 team-text member-desc">
+        <p>${person.description}</p>
+    </div>
+
+    <!-- BUTTON -->
+    <div class="col-lg-12 order-lg-4 member-spec">
+        <ul>
+            ${person.specializations.map(spec => `<li>${spec}</li>`).join('')}
+        </ul>
+        <div class="button-container">
+            <img src="/img/site/buttonbuborek.png" alt="bubi">
+            <button class="member-button" onclick='
+                var x = document.getElementById("${person.contact.email}_desc_id");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            '>${person.buttonText}</button>
+        </div>
+    </div>
+
+    <!-- AVAILABILITY -->
+    <div class="col-lg-6 order-lg-5 member-time">
+        <p class="member-set-text">Rendelési idő:<br> 
+            <span class="member-unset-text">${person.availability}</span>
+        </p>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="col-lg-6 order-lg-6 member-contact">
+        <p class="member-set-text">Elérhetőségek:</p>
+        <p class="member-unset-text">${person.contact.phone}<br>${person.contact.email}</p>
+    </div>
+
+</div>
                     
                 `;
                 count++;
